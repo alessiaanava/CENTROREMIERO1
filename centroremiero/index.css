@@ -6,7 +6,20 @@
 body {
  background-color: rgb(255, 255, 255);
 
+
 }
+
+
+div#imghome {
+    width: 100%;
+    height: 90%;
+    overflow:hidden;
+}
+div#imghome img {
+    height: 90%;
+    width: 100%;
+}
+
 
 div#titolopagina {
     font-size: 35px;
@@ -15,15 +28,19 @@ div#titolopagina {
     font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
 
+
     border-top: 70px;
     border-bottom: 70px;
 }
 #sottotitolo {
-    font-size: 20px;
+  
+    font-size: 30px;
     font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
     line-height: normal;
 }
+
+
 
 
 header img {
@@ -41,15 +58,19 @@ header a {
  }
 
 
+header img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 15%;
+    height: 10%;
+  }
 
 
 
 
-#image {
-height: 45%;
-width: 35%;
 
-}
+
 
 
 * {
@@ -61,23 +82,24 @@ width: 35%;
     position: absolute;
     display: block;
     color: white;
-    background-color: rgb(53, 126, 199);
+    background-color: rgb(24, 213, 247);
+    
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
-    top: 100px;
+    top: 130px;
     line-height: 100px;
     text-align: center;
     width: 100%;
     font-weight: bold;
     list-style-type: none;
     float: left;
-    
+   
 }
 div#menu a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .elementimenu {
     font-size: 15px;
@@ -100,18 +122,20 @@ div#menu li ul
 display: none
 }
 
+
 div#menu li:hover ul {
-    display: block; 
+    display: block;
     position: absolute;
-    padding: 0; 
+    padding: 0;
     margin: 0;
-    background-color: #242424b2;
-    color: white;
+    background-color: #fff8f8b2;
+    color: rgb(255, 255, 255);
     border: 1px;
 }
 div#menu li {
     float: left;
     list-style-type: none;
+    padding:25px;
 }
 div#menu ul li ul {
     top: 100px;
@@ -126,3 +150,65 @@ div#menu ul li ul {
 div#menu ul li ul.elencoelementimenu li.elementimenu a:hover {
     text-decoration: underline;
 }
+
+
+.container1 {
+  display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 4%;
+    margin-right: 20%;
+    margin-left: 20%;
+   
+  }
+
+
+.container1 img {
+    margin-left: 20px;
+    height: 300px;
+    width: auto;
+  }
+ 
+ 
+  .container1 .text {
+    text-align: right;
+     font-family: Quicksand;
+    font-size: 25px;margin-right: 2%;
+  }
+ 
+ 
+.container2 {
+    display: flex;
+      align-items: center;
+      text-align: center;
+      margin-top: 4%;
+      margin-right: 20%;
+      margin-left: 20%;
+     
+    }
+
+
+#imm {
+margin-left: 10%;
+margin-right: 82%;
+margin-top: 0%;
+height: 30%;
+width: auto;
+float: right;
+}
+ 
+
+
+  #text2 {
+    text-align: right;font-family: Quicksand;font-size: 25px;margin-right: 2%;
+  }
+
+
+ 
+
+.footer{
+  }
+
+
+
+
